@@ -8,6 +8,11 @@
 > 
 > 📢 **过程中遇到任何问题，请随时在群里 @组长 获取帮助。**
 
+## 教程目录
+
+1. [Git 基础操作指南](#操作步骤指南)
+2. [Git 提交签名验证配置](./git-tutorial/git-signing.md)
+
 ## 操作步骤指南
 
 ### 如何打开终端
@@ -125,3 +130,5 @@ Pull Request（PR）是用来向原仓库贡献代码的方式：
 ## 欣赏最终成果
 
 可以到 https://github.com/luobochuanqi/team-git-good 仓库页面查看自己的分支。
+
+同时，也建议配置 [Git 提交签名验证](./git-tutorial/git-signing.md)，提高代码提交的安全性和可信度。
