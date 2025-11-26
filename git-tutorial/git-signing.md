@@ -3,13 +3,14 @@
 为了提高代码提交的安全性和可信度，建议配置 GPG 或 SSH 密钥对提交进行签名验证。
 
 > 📝 **注意**：GPG 和 SSH 签名选择其一即可，两者都能实现提交签名验证功能。
+> 我建议初学者先尝试 GPG 密钥，我感觉会简单一点。
 
 ## GPG 签名配置
 
 ### 1. 安装 GPG
 - **Windows**: Git for Windows 自带 GPG 功能，无需额外安装其他软件
 
-### 2. 在 git bash 中生成 GPG 密钥对
+### 2. 在 git bash 中生成 GPG 密钥对 (git bash 如何启动 见第一项任务步骤文档)
 ```bash
 gpg --full-gen-key
 ```
@@ -50,6 +51,7 @@ gpg --armor --export 3AA5C34371567BD2
 git config --global user.signingkey 3AA5C34371567BD2
 git config --global commit.gpgsign true
 ```
+> 💡 **提示**：`3AA5C34371567BD2`替换为自己的
 
 ## SSH 签名配置
 
