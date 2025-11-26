@@ -118,7 +118,7 @@ git log --show-signature
 完成以上配置后，进行以下实践练习以验证配置是否成功：
 
 1. 在之前创建的个人分支上进行修改(记得同步上游仓库)
-2. 添加一个新文件 `signature-practice.md`
+2. 添加一个新文件 `<你的昵称>-signature-practice.md`
 3. 在文件中添加以下内容：
    ```markdown
    # 签名练习
